@@ -1,0 +1,62 @@
+{
+    "resources": [
+        {
+            "format": "csv",
+            "path": "data/technology-costs.csv",
+            "profile": "tabular-data-resource",
+            "mediatype": "text/csv",
+            "schema": {
+                "fields": [
+                    {
+                        "format": "default",
+                        "type": "string",
+                        "name": "2030 DIW"
+                    },
+                    {
+                        "format": "default",
+                        "type": "integer",
+                        "name": "liftime",
+                        "description": "lifetime of component in years"
+                    },
+                    {
+                        "format": "default",
+                        "type": "integer",
+                        "name": "ici"
+                    },
+                    {
+                        "format": "default",
+                        "type": "integer",
+                        "name": "fci"
+                    },
+                    {
+                        "format": "default",
+                        "type": "integer",
+                        "name": "vai"
+                    },
+                    {
+                        "format": "default",
+                        "type": "integer",
+                        "name": "fui"
+                    },
+                    {
+                        "format": "default",
+                        "type": "number",
+                        "name": "efi"
+                    },
+                    {
+                        "format": "default",
+                        "type": "integer",
+                        "name": "CO2int"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "encoding": "utf-8",
+            "name": "technology-costs"
+        }
+    ],
+    "name": "technology costs",
+    "profile": "tabular-data-package"
+}
