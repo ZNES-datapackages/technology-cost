@@ -96,7 +96,7 @@
                         "format": "default"
                     },
                     {
-                        "name": "invc",
+                        "name": "capacity_cost",
                         "type": "integer",
                         "format": "default",
                         "description": "Units in Euro/kW 2010"
