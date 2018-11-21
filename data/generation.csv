@@ -1,4 +1,4 @@
-carrier,tech,year,invc,lifetime,fom,efficiency,source
+carrier,tech,year,capacity_cost,lifetime,fom,efficiency,source
 wind,wind_onshore,2050,1075,25,3.5,1,DIW
 wind,wind_offshore,2050,2093,25,8,1,DIW
 solar,pv,2050,425,25,2.5,1,DIW
