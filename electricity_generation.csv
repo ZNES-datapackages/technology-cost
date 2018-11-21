@@ -1,6 +1,6 @@
 carrier,tech,year,invc,lifetime,fom,efficiency
-wind,onshore,2050,1075,25,3.5,1
-wind,offshore,2050,2093,25,8,1
+wind,wind_onshore,2050,1075,25,3.5,1
+wind,wind_offshore,2050,2093,25,8,1
 solar,pv,2050,425,25,2.5,1
 solar,csp,2050,1520,30,3,1
 bio,biomass,2050,1951,30,10,0.487
