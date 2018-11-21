@@ -2,9 +2,79 @@
     "profile": "tabular-data-package",
     "resources": [
         {
-            "path": "electricity_generation.csv",
+            "path": "data/storage.csv",
             "profile": "tabular-data-resource",
-            "name": "electricity_generation",
+            "name": "storage",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_cost",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "storage_capacity_cost",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "lifetime",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "fom",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "efficiency",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_ratio",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "loss_rate",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data/generation.csv",
+            "profile": "tabular-data-resource",
+            "name": "generation",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
@@ -39,13 +109,18 @@
                     },
                     {
                         "name": "fom",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default",
                         "description": "Units in percentage per insatalled capacity kW/a"
                     },
                     {
                         "name": "efficiency",
                         "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
                         "format": "default"
                     }
                 ],
@@ -56,7 +131,7 @@
         }
     ],
     "name": "Technology Costs",
-    "description": "Data includes investment costs, fixed O&M costs and efficiencies based on the DIW data. Data used from proposal in section 5, p. 74.",
+    "description": "Data includes costs and technical parameters.",
     "contributors": [
         {
             "title": "'Simon Hilpert'",
@@ -66,7 +141,7 @@
     ],
     "sources": [
         {
-            "title": "DIW - Current and Prospective Costs of Electricity Generation until 2050",
+            "title": "DIW",
             "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf"
         }
     ]
