@@ -1,0 +1,73 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "electricity_generation.csv",
+            "profile": "tabular-data-resource",
+            "name": "electricity_generation",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "invc",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "Units in Euro/kW 2010"
+                    },
+                    {
+                        "name": "lifetime",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "Lifetime of plant in years"
+                    },
+                    {
+                        "name": "fom",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "Units in percentage per insatalled capacity kW/a"
+                    },
+                    {
+                        "name": "efficiency",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "name": "Technology Costs",
+    "description": "Data includes investment costs, fixed O&M costs and efficiencies based on the DIW data. Data used from proposal in section 5, p. 74.",
+    "contributors": [
+        {
+            "title": "'Simon Hilpert'",
+            "email": "simon.hilpert@uni-flensburg.de",
+            "role": "author"
+        }
+    ],
+    "sources": [
+        {
+            "title": "DIW - Current and Prospective Costs of Electricity Generation until 2050",
+            "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf"
+        }
+    ]
+}
