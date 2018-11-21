@@ -39,7 +39,7 @@
                     },
                     {
                         "name": "fom",
-                        "type": "integer",
+                        "type": "number",
                         "format": "default",
                         "description": "Units in percentage per insatalled capacity kW/a"
                     },
