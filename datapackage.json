@@ -77,7 +77,7 @@
                     },
                     {
                         "name": "value",
-                        "type": "integer",
+                        "type": "number",
                         "format": "default"
                     },
                     {
