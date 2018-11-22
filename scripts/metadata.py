@@ -35,6 +35,10 @@ p.descriptor["sources"] = [{
     }, {
     "title": "Brown",
     "path": "10.1016/j.energy.2017.06.004"
+    },
+     {
+    "title": "REMod",
+    "path": "https://doi.org/10.1016/j.rser.2013.09.012"
     }
 ]
 
