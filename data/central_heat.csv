@@ -1,0 +1,11 @@
+year,carrier,tech,parameter,value,unit,source
+2050,gas,extraction,capacity_cost,1400,,REMod-D
+2050,gas,boiler_central,capacity_cost,90,,REMod-D
+2050,gas,boiler_central,efficiency,0.98,per unit,REMod-D
+2050,gas,extraction,fom,3,,REMod-D
+2050,gas,boiler_central,fom,1,,REMod-D
+2050,gas,extraction,thermal_efficiency,0.55,per unit,REMod-D
+2050,gas,extraction,electrical_efficiency,0.35,per unit,REMod-D
+2050,gas,extraction,condensing_efficiency,0.65,per unit,REMod-D
+2050,gas,extraction,lifetime,24,year,REMod-D
+2050,gas,boiler_central,lifetime,20,year,REMod-D
