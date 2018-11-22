@@ -1,0 +1,28 @@
+year,carrier,tech,parameter,value,unit,source
+2050,gas,backpressure,capacity_cost,650,,REMod-D
+2050,gas,extraction,capacity_cost,1400,,REMod-D
+2050,electricity,electricity_heatpump,capacity_cost,1050,,REMod-D
+2050,gas,gas_heatpump,capacity_cost,800,,REMod-D
+2050,gas,boiler_central,capacity_cost,90,,REMod-D
+2050,gas,boiler_decentral,capacity_cost,670,,REMod-D
+2050,electricity,electricity_heatpump,efficiency,4,per unit,REMod-D
+2050,gas,gas_heatpump,efficiency,2,per unit,REMod-D
+2050,gas,boiler_central,efficiency,0.98,per unit,REMod-D
+2050,gas,boiler_decentral,efficiency,0.96,per unit,REMod-D
+2050,gas,backpressure,fom,3,,REMod-D
+2050,gas,extraction,fom,3,,REMod-D
+2050,electricity,electricity_heatpump,fom,1.5,,REMod-D
+2050,gas,gas_heatpump,fom,1.5,,REMod-D
+2050,gas,boiler_central,fom,1,,REMod-D
+2050,gas,boiler_decentral,fom,1,,REMod-D
+2050,gas,backpressure,thermal_efficiency,0.52,per unit,REMod-D
+2050,gas,backpressure,electrical_efficiency,0.33,per unit,REMod-D
+2050,gas,extraction,thermal_efficiency,0.55,per unit,REMod-D
+2050,gas,extraction,electrical_efficiency,0.35,per unit,REMod-D
+2050,gas,extraction,condensing_efficiency,0.65,per unit,REMod-D
+2050,gas,backpressure,lifetime,25,year,REMod-D
+2050,gas,extraction,lifetime,24,year,REMod-D
+2050,electricity,electricity_heatpump,lifetime,20,year,REMod-D
+2050,gas,gas_heatpump,lifetime,20,year,REMod-D
+2050,gas,boiler_central,lifetime,20,year,REMod-D
+2050,gas,boiler_decentral,lifetime,20,year,REMod-D

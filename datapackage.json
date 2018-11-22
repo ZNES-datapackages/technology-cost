@@ -47,9 +47,9 @@
             }
         },
         {
-            "path": "data/generation.csv",
+            "path": "data/storage.csv",
             "profile": "tabular-data-resource",
-            "name": "generation",
+            "name": "storage",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
@@ -97,9 +97,59 @@
             }
         },
         {
-            "path": "data/storage.csv",
+            "path": "data/electricity.csv",
             "profile": "tabular-data-resource",
-            "name": "storage",
+            "name": "electricity",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "parameter",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "value",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "unit",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data/heat.csv",
+            "profile": "tabular-data-resource",
+            "name": "heat",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
@@ -173,6 +223,10 @@
         {
             "title": "UBA2016",
             "path": "https://www.umweltbundesamt.de/sites/default/files/medien/1968/publikationen/co2-emissionsfaktoren_fur_fossile_brennstoffe_korrektur.pdf"
+        },
+        {
+            "title": "REMod",
+            "path": "https://doi.org/10.1016/j.rser.2013.09.012"
         }
     ]
 }
