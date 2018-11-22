@@ -2,14 +2,19 @@
     "profile": "tabular-data-package",
     "resources": [
         {
-            "path": "data/storage.csv",
+            "path": "data/generation.csv",
             "profile": "tabular-data-resource",
-            "name": "storage",
+            "name": "generation",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
             "schema": {
                 "fields": [
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    },
                     {
                         "name": "carrier",
                         "type": "string",
@@ -21,43 +26,18 @@
                         "format": "default"
                     },
                     {
-                        "name": "year",
+                        "name": "parameter",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "value",
                         "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "capacity_cost",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "storage_capacity_cost",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "lifetime",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "fom",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "efficiency",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "capacity_ratio",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "loss_rate",
-                        "type": "integer",
+                        "name": "unit",
+                        "type": "string",
                         "format": "default"
                     },
                     {
@@ -72,14 +52,19 @@
             }
         },
         {
-            "path": "data/generation.csv",
+            "path": "data/storage.csv",
             "profile": "tabular-data-resource",
-            "name": "generation",
+            "name": "storage",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
             "schema": {
                 "fields": [
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    },
                     {
                         "name": "carrier",
                         "type": "string",
@@ -91,31 +76,18 @@
                         "format": "default"
                     },
                     {
-                        "name": "year",
-                        "type": "integer",
+                        "name": "parameter",
+                        "type": "string",
                         "format": "default"
                     },
                     {
-                        "name": "capacity_cost",
+                        "name": "value",
                         "type": "number",
-                        "format": "default",
-                        "description": "Units in Euro/kW 2010"
+                        "format": "default"
                     },
                     {
-                        "name": "lifetime",
-                        "type": "integer",
-                        "format": "default",
-                        "description": "Lifetime of plant in years"
-                    },
-                    {
-                        "name": "fom",
-                        "type": "number",
-                        "format": "default",
-                        "description": "Units in percentage per insatalled capacity kW/a"
-                    },
-                    {
-                        "name": "efficiency",
-                        "type": "number",
+                        "name": "unit",
+                        "type": "string",
                         "format": "default"
                     },
                     {
@@ -137,12 +109,21 @@
             "title": "'Simon Hilpert'",
             "email": "simon.hilpert@uni-flensburg.de",
             "role": "author"
+        },
+        {
+            "title": "'Martin Soethe'",
+            "email": "martin.soethe@uni-flensburg.de",
+            "role": "author"
         }
     ],
     "sources": [
         {
             "title": "DIW",
             "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf"
+        },
+        {
+            "title": "Brown",
+            "path": "10.1016/j.energy.2017.06.004"
         }
     ]
 }

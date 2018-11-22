@@ -1,2 +1,8 @@
-carrier,tech,year,capacity_cost,storage_capacity_cost,lifetime,fom,efficiency,capacity_ratio,loss_rate,source
-lithium,battery,2050,310,144.6,15,2,0.9,0.2,0,Brown
+year,carrier,tech,parameter,value,unit,source
+2050,lithium,battery,capacity_cost,310,EUR/kW,Brown
+2050,lithium,battery,storage_capacity_cost,144.6,EUR/kWh,Brown
+2050,lithium,battery,lifetime,15,years,Brown
+2050,lithium,battery,fom,2,EUR/kW/year,Brown
+2050,lithium,battery,efficiency,0.9,fraction,Brown
+2050,lithium,battery,capacity_ratio,0.2,fraction,Brown
+2050,lithium,battery,loss_rate,0,fraction,Brown

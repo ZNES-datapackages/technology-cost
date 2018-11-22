@@ -1,14 +1,53 @@
-carrier,tech,year,capacity_cost,lifetime,fom,efficiency,source
-wind,wind_onshore,2050,1075,25,3.5,1,DIW
-wind,wind_offshore,2050,2093,25,8,1,DIW
-solar,pv,2050,425,25,2.5,1,DIW
-solar,csp,2050,1520,30,3,1,DIW
-bio,biomass,2050,1951,30,10,0.487,DIW
-geo,geothermal,2050,2740,30,8,0.249,DIW
-hydro,phs,2050,2000,50,2,0.75,DIW
-hydro,reservoir,2050,2000,50,2,0.9,DIW
-hydro,ror,2050,3000,50,6,0.9,DIW
-gas,ccgt,2050,800,30,2,0.619,DIW
-gas,ocgt,2050,400,30,2,0.396,DIW
-oil,ocgt,2050,400,30,6,0.396,DIW
-coal,stsc,2050,1300,40,2.5,0.45,DIW
+year,carrier,tech,parameter,value,unit,source
+2050,wind,wind_onshore,capacity_cost,1075,2010 EUR/kW,DIW
+2050,hydro,phs,capacity_cost,2000,2010 EUR/kW,DIW
+2050,bio,biomass,capacity_cost,1951,2010 EUR/kW,DIW
+2050,hydro,reservoir,capacity_cost,2000,2010 EUR/kW,DIW
+2050,hydro,ror,capacity_cost,3000,2010 EUR/kW,DIW
+2050,solar,csp,capacity_cost,1520,2010 EUR/kW,DIW
+2050,gas,ccgt,capacity_cost,800,2010 EUR/kW,DIW
+2050,solar,pv,capacity_cost,425,2010 EUR/kW,DIW
+2050,geo,geothermal,capacity_cost,2740,2010 EUR/kW,DIW
+2050,oil,ocgt,capacity_cost,400,2010 EUR/kW,DIW
+2050,wind,wind_offshore,capacity_cost,2093,2010 EUR/kW,DIW
+2050,coal,stsc,capacity_cost,1300,2010 EUR/kW,DIW
+2050,gas,ocgt,capacity_cost,400,2010 EUR/kW,DIW
+2050,geo,geothermal,efficiency,0.249,per unit,DIW
+2050,gas,ocgt,efficiency,0.396,per unit,DIW
+2050,hydro,ror,efficiency,0.9,per unit,DIW
+2050,hydro,reservoir,efficiency,0.9,per unit,DIW
+2050,oil,ocgt,efficiency,0.396,per unit,DIW
+2050,coal,stsc,efficiency,0.45,per unit,DIW
+2050,gas,ccgt,efficiency,0.619,per unit,DIW
+2050,hydro,phs,efficiency,0.75,per unit,DIW
+2050,wind,wind_onshore,efficiency,1,per unit,DIW
+2050,bio,biomass,efficiency,0.487,per unit,DIW
+2050,wind,wind_offshore,efficiency,1,per unit,DIW
+2050,solar,pv,efficiency,1,per unit,DIW
+2050,solar,csp,efficiency,1,per unit,DIW
+2050,bio,biomass,fom,10,2010 EUR/kw/year,DIW
+2050,wind,wind_onshore,fom,3.5,2010 EUR/kw/year,DIW
+2050,oil,ocgt,fom,6,2010 EUR/kw/year,DIW
+2050,gas,ocgt,fom,2,2010 EUR/kw/year,DIW
+2050,wind,wind_offshore,fom,8,2010 EUR/kw/year,DIW
+2050,gas,ccgt,fom,2,2010 EUR/kw/year,DIW
+2050,hydro,ror,fom,6,2010 EUR/kw/year,DIW
+2050,solar,pv,fom,2.5,2010 EUR/kw/year,DIW
+2050,geo,geothermal,fom,8,2010 EUR/kw/year,DIW
+2050,hydro,reservoir,fom,2,2010 EUR/kw/year,DIW
+2050,solar,csp,fom,3,2010 EUR/kw/year,DIW
+2050,coal,stsc,fom,2.5,2010 EUR/kw/year,DIW
+2050,hydro,phs,fom,2,2010 EUR/kw/year,DIW
+2050,hydro,reservoir,lifetime,50,year,DIW
+2050,geo,geothermal,lifetime,30,year,DIW
+2050,oil,ocgt,lifetime,30,year,DIW
+2050,wind,wind_onshore,lifetime,25,year,DIW
+2050,hydro,phs,lifetime,50,year,DIW
+2050,solar,pv,lifetime,25,year,DIW
+2050,solar,csp,lifetime,30,year,DIW
+2050,wind,wind_offshore,lifetime,25,year,DIW
+2050,gas,ccgt,lifetime,30,year,DIW
+2050,bio,biomass,lifetime,30,year,DIW
+2050,hydro,ror,lifetime,50,year,DIW
+2050,gas,ocgt,lifetime,30,year,DIW
+2050,coal,stsc,lifetime,40,year,DIW
