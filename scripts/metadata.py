@@ -35,6 +35,9 @@ p.descriptor["sources"] = [{
     }, {
     "title": "Brown",
     "path": "10.1016/j.energy.2017.06.004"
+    }, {
+    "title": "UBA2016",
+    "path": "https://www.umweltbundesamt.de/sites/default/files/medien/1968/publikationen/co2-emissionsfaktoren_fur_fossile_brennstoffe_korrektur.pdf"
     }
 ]
 

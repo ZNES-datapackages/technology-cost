@@ -1,0 +1,16 @@
+year,carrier,parameter,value,unit,source
+2014,coal,emission-factor,0.34,t (CO2)/MWh,UBA2016
+2014,gas,emission-factor,0.2,t (CO2)/MWh,UBA2016
+2014,lignite,emission-factor,0.41,t (CO2)/MWh,UBA2016
+2014,waste,emission-factor,0.3,t (CO2)/MWh,
+2014,bio,emission-factor,0,t (CO2)/MWh,
+2014,nuclear,emission-factor,0,t (CO2)/MWh,
+2014,oil,emission-factor,0.27,t (CO2)/MWh,UBA2016
+2015,co2,cost,8,EUR / t (CO2),
+2015,coal,cost,8.4,EUR/MWh,DIW 2013
+2015,gas,cost,21.6,EUR/MWh,DIW 2013
+2015,lignite,cost,2.9,EUR/MWh,DIW 2013
+2015,waste,cost,7,EUR/MWh,
+2015,biomass,cost,7,EUR/MWh,DIW 2013
+2015,nuclear,cost,3,EUR/MWh,DIW 2013
+2015,oil,cost,1,EUR/MWh,
