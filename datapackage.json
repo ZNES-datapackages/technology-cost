@@ -97,6 +97,56 @@
             }
         },
         {
+            "path": "data/central_heat.csv",
+            "profile": "tabular-data-resource",
+            "name": "central_heat",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "parameter",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "value",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "unit",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
             "path": "data/electricity.csv",
             "profile": "tabular-data-resource",
             "name": "electricity",
@@ -147,9 +197,9 @@
             }
         },
         {
-            "path": "data/heat.csv",
+            "path": "data/decentral_heat.csv",
             "profile": "tabular-data-resource",
-            "name": "heat",
+            "name": "decentral_heat",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
