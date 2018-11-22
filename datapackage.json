@@ -2,6 +2,51 @@
     "profile": "tabular-data-package",
     "resources": [
         {
+            "path": "data/carrier.csv",
+            "profile": "tabular-data-resource",
+            "name": "carrier",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "parameter",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "value",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "unit",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
             "path": "data/generation.csv",
             "profile": "tabular-data-resource",
             "name": "generation",
@@ -124,6 +169,10 @@
         {
             "title": "Brown",
             "path": "10.1016/j.energy.2017.06.004"
+        },
+        {
+            "title": "UBA2016",
+            "path": "https://www.umweltbundesamt.de/sites/default/files/medien/1968/publikationen/co2-emissionsfaktoren_fur_fossile_brennstoffe_korrektur.pdf"
         }
     ]
 }
