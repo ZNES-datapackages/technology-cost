@@ -9,3 +9,10 @@ year,carrier,tech,parameter,value,unit,source
 2050,gas,extraction,condensing_efficiency,0.65,per unit,REMod-D
 2050,gas,extraction,lifetime,24,year,REMod-D
 2050,gas,boiler_central,lifetime,20,year,REMod-D
+2050,heat,hotwatertank_central,capacity_cost,0,EUR/kW,
+2050,heat,hotwatertank_central,storage_capacity_cost,25,EUR/kWh,
+2050,heat,hotwatertank_central,lifetime,30,years,
+2050,heat,hotwatertank_central,fom,1,EUR/kW/year,
+2050,heat,hotwatertank_central,efficiency,0.9,fraction,
+2050,heat,hotwatertank_central,capacity_ratio,0.1,fraction,
+2050,heat,hotwatertank_central,loss_rate,0,fraction,

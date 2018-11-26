@@ -16,3 +16,10 @@ year,carrier,tech,parameter,value,unit,source
 2050,electricity,electricity_heatpump,lifetime,20,year,REMod-D
 2050,gas,gas_heatpump,lifetime,20,year,REMod-D
 2050,gas,boiler_decentral,lifetime,20,year,REMod-D
+2050,heat,hotwatertank_decentral,capacity_cost,0,EUR/kW,
+2050,heat,hotwatertank_decentral,storage_capacity_cost,40,EUR/kWh,
+2050,heat,hotwatertank_decentral,lifetime,30,years,
+2050,heat,hotwatertank_decentral,fom,1,EUR/kW/year,
+2050,heat,hotwatertank_decentral,efficiency,0.9,fraction,
+2050,heat,hotwatertank_decentral,capacity_ratio,0.1,fraction,
+2050,heat,hotwatertank_decentral,loss_rate,0,fraction,
