@@ -225,6 +225,10 @@
             "path": "https://www.umweltbundesamt.de/sites/default/files/medien/1968/publikationen/co2-emissionsfaktoren_fur_fossile_brennstoffe_korrektur.pdf"
         },
         {
+            "title": "REMod",
+            "path": "https://doi.org/10.1016/j.rser.2013.09.012"
+        },
+        {
             "title": "ISI",
             "path": "https://www.bmwi.de/Redaktion/DE/Downloads/B/berichtsmodul-3-referenzszenario-und-basisszenario.pdf?__blob=publicationFile&v=4",
             "page": 23
