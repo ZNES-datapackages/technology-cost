@@ -14,3 +14,7 @@ year,carrier,parameter,value,unit,source
 2015,biomass,cost,7,EUR/MWh,DIW 2013
 2015,nuclear,cost,3,EUR/MWh,DIW 2013
 2015,oil,cost,1,EUR/MWh,
+2050,coal,cost,21,EUR/MWh,ISI
+2050,gas,cost,46,EUR/MWh,ISI
+2050,lignite,cost,11,EUR/MWh,ISI
+2050,oil,cost,6.4,EUR/MWh,ISI
