@@ -106,17 +106,17 @@
             "schema": {
                 "fields": [
                     {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
                         "name": "year",
                         "type": "integer",
                         "format": "default"
                     },
                     {
                         "name": "carrier",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "tech",
                         "type": "string",
                         "format": "default"
                     },
