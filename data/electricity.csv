@@ -1,6 +1,5 @@
 tech,year,carrier,parameter,value,unit,source
-battery,2050,lithium,loss_rate,0.0,fraction,Brown
-battery,2050,lithium,efficiency,0.9,fraction,Brown
+battery,2050,lithium,efficiency,0.81,fraction, roundtrip,Brown
 battery,2050,lithium,fom,2.0,EUR/kW/year,Brown
 battery,2050,lithium,lifetime,15.0,years,Brown
 battery,2050,lithium,capacity_ratio,0.2,fraction,Brown
@@ -32,7 +31,7 @@ ocgt,2050,oil,efficiency,0.396,per unit,DIW
 ocgt,2050,gas,efficiency,0.396,per unit,DIW
 phs,2050,hydro,lifetime,50.0,year,DIW
 phs,2050,hydro,capacity_cost,2000.0,2010 EUR/kW,DIW
-phs,2050,hydro,efficiency,0.75,per unit,DIW
+phs,2050,hydro,efficiency,0.75,per unit, roundtrip,DIW
 phs,2050,hydro,fom,2.0,2010 EUR/kw/year,DIW
 pv,2050,solar,capacity_cost,425.0,2010 EUR/kW,DIW
 pv,2050,solar,lifetime,25.0,year,DIW
