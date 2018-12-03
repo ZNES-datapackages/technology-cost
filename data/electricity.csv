@@ -11,10 +11,10 @@ acaes,2050,air,lifetime,30,years,IWES
 acaes,2050,air,capacity_ratio,0.2,fraction,IWES
 acaes,2050,air,storage_capacity_cost,40,2014 Euro/kWh,IWES
 acaes,2050,air,capacity_cost,750,2014 Euro/kW,IWES
-biomass,2050,bio,capacity_cost,1951,2010 EUR/kW,DIW
-biomass,2050,bio,efficiency,0.487,per unit,DIW
-biomass,2050,bio,lifetime,30,year,DIW
-biomass,2050,bio,fom,10,2010 EUR/kw/year,DIW
+biomass,2050,biomass,capacity_cost,1951,2010 EUR/kW,DIW
+biomass,2050,biomass,efficiency,0.487,per unit,DIW
+biomass,2050,biomass,lifetime,30,year,DIW
+biomass,2050,biomass,fom,10,2010 EUR/kw/year,DIW
 ccgt,2050,gas,fom,2,2010 EUR/kw/year,DIW
 ccgt,2050,gas,efficiency,0.619,per unit,DIW
 ccgt,2050,gas,lifetime,30,year,DIW
