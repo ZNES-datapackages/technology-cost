@@ -17,3 +17,8 @@ year,carrier,parameter,value,unit,source
 2015,coal,cost,8.34,EUR/MWh,BAFAa
 2015,gas,cost,5718,EUR/TJ,BAFAb
 2015,gas,cost,20.58,EUR/MWh,BAFAb
+2010,uranium,cost,3,EUR/MWh,DIW
+2010,gas,cost,21.6,EUR/MWh,DIW
+2010,coal,cost,8.4,EUR/MWh,DIW
+2010,lignite,cost,2.9,EUR/MWh,DIW
+2010,biomass,cost,7,EUR/MWh,DIW
