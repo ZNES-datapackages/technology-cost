@@ -246,6 +246,11 @@
             "page": 23
         },
 	{
+	    "title": "DESTATIS",
+	    "path": "https://www.destatis.de/DE/Publikationen/Thematisch/Preise/Erzeugerpreise/ErzeugerpreisePreisreiheHeizoelPDF_5612402.pdf?__blob=publicationFile",
+	    "page": "61"
+	},
+	{
 	    "title": "ENS",
 	    "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_energy_plants_el_and_dh_-_sep_2018.pdf",
 	    "page": "109"

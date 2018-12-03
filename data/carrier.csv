@@ -22,3 +22,6 @@ year,carrier,parameter,value,unit,source
 2010,coal,cost,8.4,EUR/MWh,DIW
 2010,lignite,cost,2.9,EUR/MWh,DIW
 2010,biomass,cost,7,EUR/MWh,DIW
+2015,oil,cost,278.4,EUR/t,DESTATIS
+2015,oil,cost,25.3,EUR/MWh,Own assumption
+2015,co2,cost,8,EUR/t,Own assumption
