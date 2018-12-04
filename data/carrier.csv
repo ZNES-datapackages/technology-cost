@@ -9,6 +9,7 @@ year,carrier,parameter,value,unit,source
 2015,lignite,emission-factor,0.4,t (CO2)/MWh,UBA2018
 2015,waste,emission-factor,0.33,t (CO2)/MWh,UBA2018
 2015,oil,emission-factor,0.29,t (CO2)/MWh,UBA2018
+2015,bio,emission-factor,0,t (CO2)/MWh,Own assumption
 2050,coal,cost,21,EUR/MWh,ISI
 2050,gas,cost,46,EUR/MWh,ISI
 2050,lignite,cost,11,EUR/MWh,ISI
@@ -25,3 +26,6 @@ year,carrier,parameter,value,unit,source
 2015,oil,cost,278.4,EUR/t,DESTATIS
 2015,oil,cost,25.3,EUR/MWh,Own assumption
 2015,co2,cost,8,EUR/t,Own assumption
+2012,waste,cost,0.027,EUR/GJ,Own assumption
+2015,uranium,emission-factor,0,t (CO2)/MWh,Own assumption
+2015,biomass,cost,7,EUR/MWh,Own assumption
