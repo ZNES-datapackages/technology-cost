@@ -224,6 +224,18 @@
             "title": "UBA2016",
             "path": "https://www.umweltbundesamt.de/sites/default/files/medien/1968/publikationen/co2-emissionsfaktoren_fur_fossile_brennstoffe_korrektur.pdf"
         },
+	{
+	    "title": "UBA2018",
+	    "path": "https://www.umweltbundesamt.de/sites/default/files/medien/361/dokumente/co2_ef_2018_komplett.xlsx"
+	},
+	{
+	    "title": "BAFAa",
+	    "path": "http://www.bafa.de/DE/Energie/Rohstoffe/Drittlandskohlepreis/drittlandskohlepreis_node.html"
+	},
+	{
+	    "title": "BAFAb",
+	    "path": "http://www.bafa.de/SharedDocs/Downloads/DE/Energie/egas_aufkommen_export_1991.xls?__blob=publicationFile&v=33"
+	},
         {
             "title": "REMod",
             "path": "https://doi.org/10.1016/j.rser.2013.09.012"
@@ -237,6 +249,15 @@
             "title": "IWES",
             "path": "http://www.fvee.de/fileadmin/publikationen/Politische_Papiere_FVEE/14.IWES_Roadmap-Speicher/14_IWES-etal_Roadmap_Speicher_Langfassung.pdf"
         },
+	    "title": "DESTATIS",
+	    "path": "https://www.destatis.de/DE/Publikationen/Thematisch/Preise/Erzeugerpreise/ErzeugerpreisePreisreiheHeizoelPDF_5612402.pdf?__blob=publicationFile",
+	    "page": "61"
+	},
+	{
+	    "title": "ENS",
+	    "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_energy_plants_el_and_dh_-_sep_2018.pdf",
+	    "page": "109"
+	},
         {
             "title": "EHighway",
             "path": "http://www.e-highway2050.eu/fileadmin/documents/Results/D3/report_CAES.pdf"
