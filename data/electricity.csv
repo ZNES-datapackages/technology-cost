@@ -72,7 +72,7 @@ st,2015,gas,vom,3,2010 EUR/MWh,DIW
 st,2015,uranium,vom,8.5,2010 EUR/MWh,DIW
 st,2015,oil,vom,3,2010 EUR/MWh,DIW
 chp,2015,waste,vom,24.8,EUR/MWh,ENS
-biomass,2015,bio,vom,0,2010 EUR/MWh,Own assumption
+biomass,2015,biomass,vom,0,2010 EUR/MWh,Own assumption
 ccgt,2015,coal,efficiency,0.485,per unit,DIW
 st,2015,coal,efficiency,0.39,per unit,DIW
 boa,2015,lignite,efficiency,0.434,per unit,DIW
@@ -82,7 +82,7 @@ st,2015,gas,efficiency,0.411,per unit,DIW
 st,2015,uranium,efficiency,0.332,per unit,DIW
 st,2015,oil,efficiency,0.391,per unit,DIW
 chp,2015,waste,efficiency,0.233,per unit,ENS
-biomass,2015,bio,efficiency,0.455,per unit,DIW
+biomass,2015,biomass,efficiency,0.455,per unit,DIW
 phs,2015,hydro,efficiency,0.75,per unit,roundtrip DIW
 reservoir,2015,hydro,efficiency,0.9,per unit,DIW
 ror,2015,hydro,efficiency,0.9,per unit,DIW
