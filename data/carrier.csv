@@ -29,3 +29,5 @@ year,carrier,parameter,value,unit,source
 2012,waste,cost,0.027,EUR/GJ,Own assumption
 2015,uranium,emission-factor,0,t (CO2)/MWh,Own assumption
 2015,biomass,cost,7,EUR/MWh,Own assumption
+2015,uranium,cost,3,EUR/MWh,Own assumption
+2015,lignite,cost,2.9,EUR/MWh,Own assumption
