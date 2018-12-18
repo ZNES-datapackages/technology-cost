@@ -246,6 +246,10 @@
             "page": 23
         },
 	{
+            "title": "IWES",
+            "path": "http://www.fvee.de/fileadmin/publikationen/Politische_Papiere_FVEE/14.IWES_Roadmap-Speicher/14_IWES-etal_Roadmap_Speicher_Langfassung.pdf"
+        },
+		{
 	    "title": "DESTATIS",
 	    "path": "https://www.destatis.de/DE/Publikationen/Thematisch/Preise/Erzeugerpreise/ErzeugerpreisePreisreiheHeizoelPDF_5612402.pdf?__blob=publicationFile",
 	    "page": "61"
