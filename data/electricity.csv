@@ -63,3 +63,15 @@ wind_onshore,2050,wind,fom,3.5,2010 EUR/kw/year,DIW
 wind_onshore,2050,wind,lifetime,25,year,DIW
 wind_onshore,2050,wind,efficiency,1,per unit,DIW
 wind_onshore,2050,wind,capacity_cost,1075,2010 EUR/kW,DIW
+phs,2030,hydro,lifetime,50,year,DIW
+phs,2030,hydro,capacity_cost,2000,2010 EUR/kW,DIW
+phs,2030,hydro,efficiency,0.75,per unit;roundtrip,DIW
+phs,2030,hydro,fom,2,2010 EUR/kw/year,DIW
+reservoir,2030,hydro,efficiency,0.9,per unit,DIW
+reservoir,2030,hydro,capacity_cost,2000,2010 EUR/kW,DIW
+reservoir,2030,hydro,lifetime,50,year,DIW
+reservoir,2030,hydro,fom,2,2010 EUR/kw/year,DIW
+ror,2030,hydro,lifetime,50,year,DIW
+ror,2030,hydro,efficiency,0.9,per unit,DIW
+ror,2030,hydro,fom,6,2010 EUR/kw/year,DIW
+ror,2030,hydro,capacity_cost,3000,2010 EUR/kW,DIW
