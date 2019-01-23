@@ -4,6 +4,7 @@ year,carrier,parameter,value,unit,source
 2014,lignite,emission-factor,0.4,t (CO2)/MWh,UBA2018
 2014,waste,emission-factor,0.33,t (CO2)/MWh,UBA2018
 2014,oil,emission-factor,0.29,t (CO2)/MWh,UBA2018
+2014,uranium,emission-factor,0,t (CO2)/MWh,Own assumption
 2015,coal,emission-factor,0.34,t (CO2)/MWh,UBA2018
 2015,gas,emission-factor,0.2,t (CO2)/MWh,UBA2018
 2015,lignite,emission-factor,0.4,t (CO2)/MWh,UBA2018
