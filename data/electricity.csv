@@ -83,9 +83,10 @@ st,2015,uranium,efficiency,0.332,per unit,DIW
 st,2015,oil,efficiency,0.391,per unit,DIW
 chp,2015,waste,efficiency,0.233,per unit,ENS
 biomass,2015,biomass,efficiency,0.455,per unit,DIW
-phs,2015,hydro,efficiency,0.75,per unit,roundtrip DIW
+phs,2015,hydro,efficiency,0.75,per unit; roundtrip, DIW
 reservoir,2015,hydro,efficiency,0.9,per unit,DIW
 ror,2015,hydro,efficiency,0.9,per unit,DIW
+ccgt,2030,coal,vom,6,2010 EUR/MWh,DIW
 st,2030,coal,vom,6,2010 EUR/MWh,DIW
 boa,2030,lignite,vom,7,2010 EUR/MWh,DIW
 ccgt,2030,gas,vom,4,2010 EUR/MWh,DIW
