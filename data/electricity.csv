@@ -95,7 +95,7 @@ st,2030,uranium,vom,8.5,2010 EUR/MWh,DIW
 st,2030,oil,vom,3,2010 EUR/MWh,DIW
 chp,2030,waste,vom,24.8,EUR/MWh,ENS
 biomass,2030,biomass,vom,0,2010 EUR/MWh,Own assumption
-ccts,2030,coal,efficiency,0.495,per unit,DIW
+ccgt,2030,coal,efficiency,0.495,per unit,DIW
 st,2030,coal,efficiency,0.39,per unit,DIW
 boa,2030,lignite,efficiency,0.447,per unit,DIW
 ccgt,2030,gas,efficiency,0.607,per unit,DIW
