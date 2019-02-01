@@ -75,3 +75,26 @@ ror,2030,hydro,lifetime,50,year,DIW
 ror,2030,hydro,efficiency,0.9,per unit,DIW
 ror,2030,hydro,fom,6,2010 EUR/kw/year,DIW
 ror,2030,hydro,capacity_cost,3000,2010 EUR/kW,DIW
+ccgt,2015,coal,vom,6,2010 EUR/MWh,DIW
+st,2015,coal,vom,6,2010 EUR/MWh,DIW
+boa,2015,lignite,vom,7,2010 EUR/MWh,DIW
+ccgt,2015,gas,vom,4,2010 EUR/MWh,DIW
+ocgt,2015,gas,vom,3,2010 EUR/MWh,DIW
+st,2015,gas,vom,3,2010 EUR/MWh,DIW
+st,2015,uranium,vom,8.5,2010 EUR/MWh,DIW
+st,2015,oil,vom,3,2010 EUR/MWh,DIW
+chp,2015,waste,vom,24.8,EUR/MWh,ENS
+biomass,2015,biomass,vom,0,2010 EUR/MWh,Own assumption
+ccgt,2015,coal,efficiency,0.485,per unit,DIW
+st,2015,coal,efficiency,0.39,per unit,DIW
+boa,2015,lignite,efficiency,0.434,per unit,DIW
+ccgt,2015,gas,efficiency,0.602,per unit,DIW
+ocgt,2015,gas,efficiency,0.391,per unit,DIW
+st,2015,gas,efficiency,0.411,per unit,DIW
+st,2015,uranium,efficiency,0.332,per unit,DIW
+st,2015,oil,efficiency,0.391,per unit,DIW
+chp,2015,waste,efficiency,0.233,per unit,ENS
+biomass,2015,biomass,efficiency,0.455,per unit,DIW
+phs,2015,hydro,efficiency,0.75,per unit,roundtrip DIW
+reservoir,2015,hydro,efficiency,0.9,per unit,DIW
+ror,2015,hydro,efficiency,0.9,per unit,DIW
