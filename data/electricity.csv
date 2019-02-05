@@ -65,6 +65,19 @@ year,parameter,carrier,tech,value,unit,source
 2030,fom,lignite,st,30.0,2010 EUR/kw/year,DIW
 2030,fom,oil,st,6.0,2010 EUR/kw/year,DIW
 2030,fom,waste,chp,50.0,2010 EUR/kw/year,Own assumption
+2030,lifetime,biomass,ce,30.0,years,DIW
+2030,lifetime,biomass,st,30.0,years,DIW
+2030,lifetime,coal,ccgt,40.0,years,DIW
+2030,lifetime,coal,st,40.0,years,DIW
+2030,lifetime,gas,ccgt,30.0,years,DIW
+2030,lifetime,gas,ocgt,30.0,years,DIW
+2030,lifetime,gas,st,30.0,years,DIW
+2030,lifetime,hydro,phs,50.0,years,DIW
+2030,lifetime,hydro,ror,50.0,years,DIW
+2030,lifetime,hydro,rsv,50.0,years,DIW
+2030,lifetime,lignite,st,40.0,years,DIW
+2030,lifetime,oil,ocgt,30.0,years,DIW
+2030,lifetime,uranium,st,60.0,years,DIW
 2030,vom,biomass,ce,3.0,2010 EUR/MWh,Own assumption
 2030,vom,biomass,st,3.0,2010 EUR/MWh,Own assumption
 2030,vom,coal,ccgt,6.0,2010 EUR/MWh,DIW
