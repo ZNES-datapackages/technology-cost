@@ -1,120 +1,130 @@
-tech,year,carrier,parameter,value,unit,source
-lithium_battery,2050,lithium,efficiency,0.92,fraction;roundtrip,IWES
-lithium_battery,2050,lithium,fom,2,EUR/kW/year,Own assumption
-lithium_battery,2050,lithium,lifetime,13,years,IWES
-lithium_battery,2050,lithium,capacity_ratio,0.2,fraction,IWES
-lithium_battery,2050,lithium,storage_capacity_cost,150,EUR/kWh,IWES
-lithium_battery,2050,lithium,capacity_cost,35,EUR/kW,IWES
-acaes,2050,air,efficiency,0.73,fraction;roundtrip,IWES
-acaes,2050,air,fom,2,EUR/kW/year,Own assumption
-acaes,2050,air,lifetime,30,years,IWES
-acaes,2050,air,capacity_ratio,0.2,fraction,IWES
-acaes,2050,air,storage_capacity_cost,40,2014 Euro/kWh,IWES
-acaes,2050,air,capacity_cost,750,2014 Euro/kW,IWES
-biomass,2050,biomass,capacity_cost,1951,2010 EUR/kW,DIW
-biomass,2050,biomass,efficiency,0.487,per unit,DIW
-biomass,2050,biomass,lifetime,30,year,DIW
-biomass,2050,biomass,fom,10,2010 EUR/kw/year,DIW
-ccgt,2050,gas,fom,2,2010 EUR/kw/year,DIW
-ccgt,2050,gas,efficiency,0.619,per unit,DIW
-ccgt,2050,gas,lifetime,30,year,DIW
-ccgt,2050,gas,capacity_cost,800,2010 EUR/kW,DIW
-csp,2050,solar,lifetime,30,year,DIW
-csp,2050,solar,fom,3,2010 EUR/kw/year,DIW
-csp,2050,solar,capacity_cost,1520,2010 EUR/kW,DIW
-csp,2050,solar,efficiency,1,per unit,DIW
-geothermal,2050,geo,lifetime,30,year,DIW
-geothermal,2050,geo,fom,8,2010 EUR/kw/year,DIW
-geothermal,2050,geo,capacity_cost,2740,2010 EUR/kW,DIW
-geothermal,2050,geo,efficiency,0.249,per unit,DIW
-ocgt,2050,oil,lifetime,30,year,DIW
-ocgt,2050,gas,lifetime,30,year,DIW
-ocgt,2050,oil,fom,6,2010 EUR/kw/year,DIW
-ocgt,2050,gas,fom,2,2010 EUR/kw/year,DIW
-ocgt,2050,oil,capacity_cost,400,2010 EUR/kW,DIW
-ocgt,2050,gas,capacity_cost,400,2010 EUR/kW,DIW
-ocgt,2050,oil,efficiency,0.396,per unit,DIW
-ocgt,2050,gas,efficiency,0.396,per unit,DIW
-phs,2050,hydro,lifetime,50,year,DIW
-phs,2050,hydro,capacity_cost,2000,2010 EUR/kW,DIW
-phs,2050,hydro,efficiency,0.75,per unit;roundtrip,DIW
-phs,2050,hydro,fom,2,2010 EUR/kw/year,DIW
-pv,2050,solar,capacity_cost,425,2010 EUR/kW,DIW
-pv,2050,solar,lifetime,25,year,DIW
-pv,2050,solar,fom,2.5,2010 EUR/kw/year,DIW
-pv,2050,solar,efficiency,1,per unit,DIW
-reservoir,2050,hydro,efficiency,0.9,per unit,DIW
-reservoir,2050,hydro,capacity_cost,2000,2010 EUR/kW,DIW
-reservoir,2050,hydro,lifetime,50,year,DIW
-reservoir,2050,hydro,fom,2,2010 EUR/kw/year,DIW
-ror,2050,hydro,lifetime,50,year,DIW
-ror,2050,hydro,efficiency,0.9,per unit,DIW
-ror,2050,hydro,fom,6,2010 EUR/kw/year,DIW
-ror,2050,hydro,capacity_cost,3000,2010 EUR/kW,DIW
-stsc,2050,coal,fom,2.5,2010 EUR/kw/year,DIW
-stsc,2050,coal,efficiency,0.45,per unit,DIW
-stsc,2050,coal,capacity_cost,1300,2010 EUR/kW,DIW
-stsc,2050,coal,lifetime,40,year,DIW
-wind_offshore,2050,wind,lifetime,25,year,DIW
-wind_offshore,2050,wind,capacity_cost,2093,2010 EUR/kW,DIW
-wind_offshore,2050,wind,fom,8,2010 EUR/kw/year,DIW
-wind_offshore,2050,wind,efficiency,1,per unit,DIW
-wind_onshore,2050,wind,fom,3.5,2010 EUR/kw/year,DIW
-wind_onshore,2050,wind,lifetime,25,year,DIW
-wind_onshore,2050,wind,efficiency,1,per unit,DIW
-wind_onshore,2050,wind,capacity_cost,1075,2010 EUR/kW,DIW
-ccgt,2015,coal,vom,6,2010 EUR/MWh,DIW
-st,2015,coal,vom,6,2010 EUR/MWh,DIW
-boa,2015,lignite,vom,7,2010 EUR/MWh,DIW
-ccgt,2015,gas,vom,4,2010 EUR/MWh,DIW
-ocgt,2015,gas,vom,3,2010 EUR/MWh,DIW
-st,2015,gas,vom,3,2010 EUR/MWh,DIW
-st,2015,uranium,vom,8.5,2010 EUR/MWh,DIW
-st,2015,oil,vom,3,2010 EUR/MWh,DIW
-chp,2015,waste,vom,24.8,EUR/MWh,ENS
-biomass,2015,biomass,vom,0,2010 EUR/MWh,Own assumption
-ccgt,2015,coal,efficiency,0.485,per unit,DIW
-st,2015,coal,efficiency,0.39,per unit,DIW
-boa,2015,lignite,efficiency,0.434,per unit,DIW
-ccgt,2015,gas,efficiency,0.602,per unit,DIW
-ocgt,2015,gas,efficiency,0.391,per unit,DIW
-st,2015,gas,efficiency,0.411,per unit,DIW
-st,2015,uranium,efficiency,0.332,per unit,DIW
-st,2015,oil,efficiency,0.391,per unit,DIW
-chp,2015,waste,efficiency,0.233,per unit,ENS
-biomass,2015,biomass,efficiency,0.455,per unit,DIW
-phs,2015,hydro,efficiency,0.75,per unit; roundtrip, DIW
-reservoir,2015,hydro,efficiency,0.9,per unit,DIW
-ror,2015,hydro,efficiency,0.9,per unit,DIW
-ccgt,2030,coal,vom,6,2010 EUR/MWh,DIW
-st,2030,coal,vom,6,2010 EUR/MWh,DIW
-boa,2030,lignite,vom,7,2010 EUR/MWh,DIW
-ccgt,2030,gas,vom,4,2010 EUR/MWh,DIW
-ocgt,2030,gas,vom,3,2010 EUR/MWh,DIW
-st,2030,gas,vom,3,2010 EUR/MWh,DIW
-st,2030,uranium,vom,8.5,2010 EUR/MWh,DIW
-st,2030,oil,vom,3,2010 EUR/MWh,DIW
-chp,2030,waste,vom,24.8,EUR/MWh,ENS
-biomass,2030,biomass,vom,0,2010 EUR/MWh,Own assumption
-ccgt,2030,coal,efficiency,0.495,per unit,DIW
-st,2030,coal,efficiency,0.39,per unit,DIW
-boa,2030,lignite,efficiency,0.447,per unit,DIW
-ccgt,2030,gas,efficiency,0.607,per unit,DIW
-ocgt,2030,gas,efficiency,0.393,per unit,DIW
-st,2030,gas,efficiency,0.411,per unit,DIW
-st,2030,uranium,efficiency,0.332,per unit,DIW
-st,2030,oil,efficiency,0.393,per unit,DIW
-chp,2030,waste,efficiency,0.25,per unit,Own assumption
-biomass,2030,biomass,efficiency,0.468,per unit,DIW
-phs,2030,hydro,lifetime,50,year,DIW
-phs,2030,hydro,capacity_cost,2000,2010 EUR/kW,DIW
-phs,2030,hydro,efficiency,0.75,per unit;roundtrip,DIW
-phs,2030,hydro,fom,2,2010 EUR/kw/year,DIW
-reservoir,2030,hydro,efficiency,0.9,per unit,DIW
-reservoir,2030,hydro,capacity_cost,2000,2010 EUR/kW,DIW
-reservoir,2030,hydro,lifetime,50,year,DIW
-reservoir,2030,hydro,fom,2,2010 EUR/kw/year,DIW
-ror,2030,hydro,lifetime,50,year,DIW
-ror,2030,hydro,efficiency,0.9,per unit,DIW
-ror,2030,hydro,fom,6,2010 EUR/kw/year,DIW
-ror,2030,hydro,capacity_cost,3000,2010 EUR/kW,DIW
+year,parameter,carrier,tech,value,unit,source
+2015,efficiency,biomass,ce,0.455,per unit,DIW
+2015,efficiency,biomass,st,0.455,per unit,DIW
+2015,efficiency,coal,ccgt,0.485,per unit,DIW
+2015,efficiency,coal,st,0.39,per unit,DIW
+2015,efficiency,gas,ccgt,0.602,per unit,DIW
+2015,efficiency,gas,ocgt,0.391,per unit,DIW
+2015,efficiency,gas,st,0.41100000000000003,per unit,DIW
+2015,efficiency,hydro,phs,0.75,per unit+ADs- roundtrip,DIW
+2015,efficiency,hydro,ror,0.9,per unit,DIW
+2015,efficiency,hydro,rsv,0.9,per unit,DIW
+2015,efficiency,lignite,st,0.434,per unit,DIW
+2015,efficiency,oil,ocgt,0.391,per unit,DIW
+2015,efficiency,uranium,st,0.332,per unit,DIW
+2015,efficiency,waste,chp,0.233,per unit,ENS
+2015,vom,biomass,ce,3.0,2010 EUR/MWh,Own assumption
+2015,vom,biomass,st,3.0,2010 EUR/MWh,Own assumption
+2015,vom,coal,ccgt,6.0,2010 EUR/MWh,DIW
+2015,vom,coal,st,6.0,2010 EUR/MWh,DIW
+2015,vom,gas,ccgt,4.0,2010 EUR/MWh,DIW
+2015,vom,gas,ocgt,3.0,2010 EUR/MWh,DIW
+2015,vom,gas,st,3.0,2010 EUR/MWh,DIW
+2015,vom,lignite,st,7.0,2010 EUR/MWh,DIW
+2015,vom,oil,ocgt,3.0,2010 EUR/MWh,DIW
+2015,vom,uranium,st,8.5,2010 EUR/MWh,DIW
+2015,vom,waste,chp,24.8,EUR/MWh,ENS
+2030,capacity+AF8-cost,biomass,ce,2209.0,2010 EUR/kW,DIW
+2030,capacity+AF8-cost,biomass,st,2209.0,2010 EUR/kW,DIW
+2030,capacity+AF8-cost,coal,ccgt,1800.0,2010 EUR/kW,DIW
+2030,capacity+AF8-cost,coal,st,1200.0,2010 EUR/kW,DIW
+2030,capacity+AF8-cost,gas,ccgt,800.0,2010 EUR/kW,DIW
+2030,capacity+AF8-cost,gas,ocgt,400.0,2010 EUR/kW,DIW
+2030,capacity+AF8-cost,gas,st,400.0,2010 EUR/kW,DIW
+2030,capacity+AF8-cost,hydro,phs,2000.0,2010 EUR/kW,DIW
+2030,capacity+AF8-cost,hydro,ror,3000.0,2010 EUR/kW,DIW
+2030,capacity+AF8-cost,hydro,rsv,2000.0,2010 EUR/kW,DIW
+2030,capacity+AF8-cost,lignite,st,1500.0,2010 EUR/kW,DIW
+2030,capacity+AF8-cost,oil,ocgt,400.0,2010 EUR/kW,DIW
+2030,capacity+AF8-cost,uranium,st,6000.0,2010 EUR/kW,DIW
+2030,efficiency,biomass,ce,0.46799999999999997,per unit,DIW
+2030,efficiency,biomass,st,0.46799999999999997,per unit,DIW
+2030,efficiency,coal,ccgt,0.499,per unit,DIW
+2030,efficiency,coal,st,0.39,per unit,DIW
+2030,efficiency,gas,ccgt,0.61,per unit,DIW
+2030,efficiency,gas,ocgt,0.39299999999999996,per unit,DIW
+2030,efficiency,gas,st,0.413,per unit,DIW
+2030,efficiency,hydro,phs,0.75,per unit+ADs-roundtrip,DIW
+2030,efficiency,hydro,ror,0.9,per unit,DIW
+2030,efficiency,hydro,rsv,0.9,per unit,DIW
+2030,efficiency,lignite,st,0.447,per unit,DIW
+2030,efficiency,oil,ocgt,0.39299999999999996,per unit,DIW
+2030,efficiency,uranium,st,0.337,per unit,DIW
+2030,efficiency,waste,chp,0.25,per unit,Own assumption
+2030,fom,biomass,ce,100.0,2010 EUR/kw/year,DIW
+2030,fom,biomass,st,100.0,2010 EUR/kw/year,DIW
+2030,fom,coal,ccgt,60.0,2010 EUR/kw/year,DIW
+2030,fom,coal,st,30.0,2010 EUR/kw/year,DIW
+2030,fom,gas,ccgt,20.0,2010 EUR/kw/year,DIW
+2030,fom,gas,ocgt,15.0,2010 EUR/kw/year,DIW
+2030,fom,gas,st,15.0,2010 EUR/kw/year,DIW
+2030,fom,lignite,st,30.0,2010 EUR/kw/year,DIW
+2030,fom,oil,st,6.0,2010 EUR/kw/year,DIW
+2030,fom,waste,chp,50.0,2010 EUR/kw/year,Own assumption
+2030,vom,biomass,ce,3.0,2010 EUR/MWh,Own assumption
+2030,vom,biomass,st,3.0,2010 EUR/MWh,Own assumption
+2030,vom,coal,ccgt,6.0,2010 EUR/MWh,DIW
+2030,vom,coal,st,6.0,2010 EUR/MWh,DIW
+2030,vom,gas,ccgt,4.0,2010 EUR/MWh,DIW
+2030,vom,gas,ocgt,3.0,2010 EUR/MWh,DIW
+2030,vom,gas,st,3.0,2010 EUR/MWh,DIW
+2030,vom,lignite,boa,7.0,2010 EUR/MWh,DIW
+2030,vom,oil,st,3.0,2010 EUR/MWh,DIW
+2030,vom,uranium,st,8.5,2010 EUR/MWh,DIW
+2030,vom,waste,chp,24.8,EUR/MWh,ENS
+2050,capacity+AF8-cost,air,acaes,750.0,2014 Euro/kW,IWES
+2050,capacity+AF8-cost,air,biomass,1951.0,2010 EUR/kW,DIW
+2050,capacity+AF8-cost,coal,st,1300.0,2010 EUR/kW,DIW
+2050,capacity+AF8-cost,electricity,lithium+AF8-battery,35.0,EUR/kW,IWES
+2050,capacity+AF8-cost,gas,ccgt,800.0,2010 EUR/kW,DIW
+2050,capacity+AF8-cost,gas,ocgt,400.0,2010 EUR/kW,DIW
+2050,capacity+AF8-cost,hydro,phs,2000.0,2010 EUR/kW,DIW
+2050,capacity+AF8-cost,hydro,reservoir,2000.0,2010 EUR/kW,DIW
+2050,capacity+AF8-cost,hydro,ror,3000.0,2010 EUR/kW,DIW
+2050,capacity+AF8-cost,oil,ocgt,400.0,2010 EUR/kW,DIW
+2050,capacity+AF8-cost,solar,pv,425.0,2010 EUR/kW,DIW
+2050,capacity+AF8-cost,wind,wind+AF8-offshore,2093.0,2010 EUR/kW,DIW
+2050,capacity+AF8-cost,wind,wind+AF8-onshore,1075.0,2010 EUR/kW,DIW
+2050,capacity+AF8-ratio,air,acaes,0.2,fraction,IWES
+2050,capacity+AF8-ratio,electricity,lithium+AF8-battery,0.2,fraction,IWES
+2050,efficiency,air,acaes,0.73,fraction+ADs-roundtrip,IWES
+2050,efficiency,biomass,st,0.48700000000000004,per unit,DIW
+2050,efficiency,coal,st,0.45,per unit,DIW
+2050,efficiency,electricity,lithium+AF8-battery,0.92,fraction+ADs-roundtrip,IWES
+2050,efficiency,gas,cc,0.619,per unit,DIW
+2050,efficiency,gas,oc,0.396,per unit,DIW
+2050,efficiency,hydro,phs,0.75,per unit+ADs-roundtrip,DIW
+2050,efficiency,hydro,ror,0.9,per unit,DIW
+2050,efficiency,hydro,rsv,0.9,per unit,DIW
+2050,efficiency,oil,ocgt,0.396,per unit,DIW
+2050,efficiency,solar,pv,1.0,per unit,DIW
+2050,efficiency,wind,wind+AF8-offshore,1.0,per unit,DIW
+2050,efficiency,wind,wind+AF8-onshore,1.0,per unit,DIW
+2050,fom,air,acaes,2.0,EUR/kW/year,Own assumption
+2050,fom,biomass,biomass,100.0,2010 EUR/kw/year,DIW
+2050,fom,coal,st,25.0,2010 EUR/kw/year,DIW
+2050,fom,electricity,lithium+AF8-battery,20.0,EUR/kW/year,Own assumption
+2050,fom,gas,ccgt,20.0,2010 EUR/kw/year,DIW
+2050,fom,gas,ocgt,15.0,2010 EUR/kw/year,DIW
+2050,fom,hydro,phs,20.0,2010 EUR/kw/year,DIW
+2050,fom,hydro,ror,60.0,2010 EUR/kw/year,DIW
+2050,fom,hydro,rsv,20.0,2010 EUR/kw/year,DIW
+2050,fom,oil,oc,6.0,2010 EUR/kw/year,DIW
+2050,fom,solar,pv,25.0,2010 EUR/kw/year,DIW
+2050,fom,wind,wind+AF8-offshore,80.0,2010 EUR/kw/year,DIW
+2050,fom,wind,wind+AF8-onshore,35.0,2010 EUR/kw/year,DIW
+2050,lifetime,air,acaes,30.0,years,IWES
+2050,lifetime,biomass,biomass,30.0,years,DIW
+2050,lifetime,coal,st,40.0,years,DIW
+2050,lifetime,electricity,lithium+AF8-battery,13.0,years,IWES
+2050,lifetime,gas,ccgt,30.0,years,DIW
+2050,lifetime,gas,ocgt,30.0,years,DIW
+2050,lifetime,hydro,phs,50.0,years,DIW
+2050,lifetime,hydro,ror,50.0,years,DIW
+2050,lifetime,hydro,rsv,50.0,years,DIW
+2050,lifetime,oil,oc,30.0,years,DIW
+2050,lifetime,solar,pv,25.0,years,DIW
+2050,lifetime,wind,wind+AF8-offshore,25.0,years,DIW
+2050,lifetime,wind,wind+AF8-onshore,25.0,years,DIW
+2050,storage+AF8-capacity+AF8-cost,air,acaes,40.0,2014 Euro/kWh,IWES
+2050,storage+AF8-capacity+AF8-cost,electricity,lithium+AF8-battery,150.0,EUR/kWh,IWES

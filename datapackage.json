@@ -106,13 +106,13 @@
             "schema": {
                 "fields": [
                     {
-                        "name": "tech",
-                        "type": "string",
+                        "name": "year",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
-                        "name": "year",
-                        "type": "integer",
+                        "name": "parameter",
+                        "type": "string",
                         "format": "default"
                     },
                     {
@@ -121,7 +121,7 @@
                         "format": "default"
                     },
                     {
-                        "name": "parameter",
+                        "name": "tech",
                         "type": "string",
                         "format": "default"
                     },
