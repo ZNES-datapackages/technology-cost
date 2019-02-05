@@ -72,7 +72,7 @@ year,parameter,carrier,tech,value,unit,source
 2030,vom,gas,ccgt,4.0,2010 EUR/MWh,DIW
 2030,vom,gas,ocgt,3.0,2010 EUR/MWh,DIW
 2030,vom,gas,st,3.0,2010 EUR/MWh,DIW
-2030,vom,lignite,boa,7.0,2010 EUR/MWh,DIW
+2030,vom,lignite,st,7.0,2010 EUR/MWh,DIW
 2030,vom,oil,st,3.0,2010 EUR/MWh,DIW
 2030,vom,uranium,st,8.5,2010 EUR/MWh,DIW
 2030,vom,waste,chp,24.8,EUR/MWh,ENS
