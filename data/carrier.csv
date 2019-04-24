@@ -14,6 +14,7 @@ year,carrier,parameter,value,unit,source
 2014,biomass,emission-factor,0,t (CO2)/MWh,Own assumption
 2050,coal,cost,21,EUR/MWh,ISI
 2050,gas,cost,46,EUR/MWh,ISI
+2050,biomass,cost,100,EUR/MWh,Own assumption
 2050,lignite,cost,11,EUR/MWh,ISI
 2050,oil,cost,6.4,EUR/MWh,ISI
 2015,coal,cost,67.9,EUR/SKE,BAFAa
