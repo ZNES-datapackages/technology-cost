@@ -96,12 +96,12 @@ year,parameter,carrier,tech,value,unit,source
 2050,capacity_cost,gas,ccgt,800.0,2010 EUR/kW,DIW
 2050,capacity_cost,gas,ocgt,400.0,2010 EUR/kW,DIW
 2050,capacity_cost,hydro,phs,2000.0,2010 EUR/kW,DIW
-2050,capacity_cost,hydro,reservoir,2000.0,2010 EUR/kW,DIW
 2050,capacity_cost,hydro,ror,3000.0,2010 EUR/kW,DIW
 2050,capacity_cost,oil,ocgt,400.0,2010 EUR/kW,DIW
 2050,capacity_cost,solar,pv,425.0,2010 EUR/kW,DIW
 2050,capacity_cost,wind,wind_offshore,2093.0,2010 EUR/kW,DIW
 2050,capacity_cost,wind,wind_onshore,1075.0,2010 EUR/kW,DIW
+2050,capacity_cost,hydro,rsv,2000,2010 EUR/kW,DIW
 2050,capacity_ratio,air,acaes,0.2,fraction,IWES
 2050,capacity_ratio,electricity,lithium_battery,0.2,fraction,IWES
 2050,efficiency,air,acaes,0.73,fraction;roundtrip,IWES
