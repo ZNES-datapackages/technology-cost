@@ -43,6 +43,7 @@ year,carrier,parameter,scenario,value,unit,source
 2030,gas,cost,2030ST,31.68,EUR/MWh,TYNDP2016-X
 2030,light_oil,cost,2030ST,78.48,EUR/MWh,TYNDP2016-X
 2030,heavy_oil,cost,2030ST,64.44,EUR/MWh,TYNDP2016-X
+2030,oil,cost,2030ST,78.48,EUR/MWh,Own assumption
 2030,shale_oil,cost,2030ST,8.28,EUR/MWh,TYNDP2016-X
 2030,co2,cost,2030ST,84.3,EUR/t,TYNDP2016-X
 2030,nuclear,cost,2030GBC,1.692,EUR/MWh,TYNDP2016-X
@@ -50,6 +51,7 @@ year,carrier,parameter,scenario,value,unit,source
 2030,coal,cost,2030GBC,7.56,EUR/MWh,TYNDP2016-X
 2030,gas,cost,2030GBC,25.2,EUR/MWh,TYNDP2016-X
 2030,light_oil,cost,2030GBC,55.8,EUR/MWh,TYNDP2016-X
+2030,oil,cost,2030GBC,55.8,EUR/MWh,Own assumption
 2030,heavy_oil,cost,2030GBC,45.72,EUR/MWh,TYNDP2016-X
 2030,shale_oil,cost,2030GBC,8.28,EUR/MWh,TYNDP2016-X
 2030,co2,cost,2030GBC,54,EUR/t,TYNDP2016-X
