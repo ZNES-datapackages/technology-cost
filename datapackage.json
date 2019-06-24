@@ -26,6 +26,11 @@
                         "format": "default"
                     },
                     {
+                        "name": "scenario",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
                         "name": "value",
                         "type": "number",
                         "format": "default"

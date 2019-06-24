@@ -1,49 +1,57 @@
-year,carrier,parameter,value,unit,source
-2014,coal,emission-factor,0.34,t (CO2)/MWh,UBA2018
-2014,gas,emission-factor,0.2,t (CO2)/MWh,UBA2018
-2014,lignite,emission-factor,0.4,t (CO2)/MWh,UBA2018
-2014,waste,emission-factor,0.33,t (CO2)/MWh,UBA2018
-2014,oil,emission-factor,0.29,t (CO2)/MWh,UBA2018
-2014,uranium,emission-factor,0,t (CO2)/MWh,Own assumption
-2015,coal,emission-factor,0.34,t (CO2)/MWh,UBA2018
-2015,gas,emission-factor,0.2,t (CO2)/MWh,UBA2018
-2015,lignite,emission-factor,0.4,t (CO2)/MWh,UBA2018
-2015,waste,emission-factor,0.33,t (CO2)/MWh,UBA2018
-2015,oil,emission-factor,0.29,t (CO2)/MWh,UBA2018
-2015,bio,emission-factor,0,t (CO2)/MWh,Own assumption
-2014,biomass,emission-factor,0,t (CO2)/MWh,Own assumption
-2050,coal,cost,21,EUR/MWh,ISI
-2050,gas,cost,46,EUR/MWh,ISI
-2050,biomass,cost,100,EUR/MWh,Own assumption
-2050,lignite,cost,11,EUR/MWh,ISI
-2050,oil,cost,6.4,EUR/MWh,ISI
-2015,coal,cost,67.9,EUR/SKE,BAFAa
-2015,coal,cost,8.34,EUR/MWh,BAFAa
-2015,gas,cost,5718,EUR/TJ,BAFAb
-2015,gas,cost,20.58,EUR/MWh,BAFAb
-2010,uranium,cost,3,EUR/MWh,DIW
-2010,gas,cost,21.6,EUR/MWh,DIW
-2010,coal,cost,8.4,EUR/MWh,DIW
-2010,lignite,cost,2.9,EUR/MWh,DIW
-2010,biomass,cost,7,EUR/MWh,DIW
-2015,oil,cost,278.4,EUR/t,DESTATIS
-2015,oil,cost,25.3,EUR/MWh,Own assumption
-2015,co2,cost,8,EUR/t,Own assumption
-2012,waste,cost,0.027,EUR/GJ,Own assumption
-2015,uranium,emission-factor,0,t (CO2)/MWh,Own assumption
-2015,biomass,cost,7,EUR/MWh,Own assumption
-2030,biomass,cost,20,EUR/MWh,Own assumption
-2030,uranium,cost,1.7,EUR/MWh,TYNDP2016-1
-2030,lignite,cost,4,EUR/MWh,TYNDP2016-1
-2030,coal,cost,10.8,EUR/MWh,TYNDP2016-1
-2030,gas,cost,34.2,EUR/MWh,TYNDP2016-1
-2030,light-oil,cost,64.4,EUR/MWh,TYNDP2016-1
-2030,oil,cost,50,EUR/MWh,Own assumption
-2030,heavy-oil,cost,49.3,EUR/MWh,TYNDP2016-1
-2030,co2,cost,17,EUR/t,TYNDP2016-1
-2050,co2,cost,50,EUR/t,Own assumption
-2030,waste,cost,0.0972,EUR/MWh,Own assumption
-2015,uranium,cost,3,EUR/MWh,Own assumption
-2015,lignite,cost,2.9,EUR/MWh,Own assumption
-2015,waste,cost,0.027,EUR/GJ,Own assumption
-2015,waste,cost,0.0972,EUR/MWh,Own assumption
+year,carrier,parameter,scenario,value,unit,source
+2014,coal,emission-factor,,0.34,t (CO2)/MWh,UBA2018
+2014,gas,emission-factor,,0.2,t (CO2)/MWh,UBA2018
+2014,lignite,emission-factor,,0.4,t (CO2)/MWh,UBA2018
+2014,waste,emission-factor,,0.33,t (CO2)/MWh,UBA2018
+2014,oil,emission-factor,,0.29,t (CO2)/MWh,UBA2018
+2014,uranium,emission-factor,,0,t (CO2)/MWh,Own assumption
+2015,coal,emission-factor,,0.34,t (CO2)/MWh,UBA2018
+2015,gas,emission-factor,,0.2,t (CO2)/MWh,UBA2018
+2015,lignite,emission-factor,,0.4,t (CO2)/MWh,UBA2018
+2015,waste,emission-factor,,0.33,t (CO2)/MWh,UBA2018
+2015,oil,emission-factor,,0.29,t (CO2)/MWh,UBA2018
+2015,bio,emission-factor,,0,t (CO2)/MWh,Own assumption
+2014,biomass,emission-factor,,0,t (CO2)/MWh,Own assumption
+2050,coal,cost,,21,EUR/MWh,ISI
+2050,gas,cost,,46,EUR/MWh,ISI
+2050,biomass,cost,,100,EUR/MWh,Own assumption
+2050,lignite,cost,,11,EUR/MWh,ISI
+2050,oil,cost,,6.4,EUR/MWh,ISI
+2015,coal,cost,,67.9,EUR/SKE,BAFAa
+2015,coal,cost,,8.34,EUR/MWh,BAFAa
+2015,gas,cost,,5718,EUR/TJ,BAFAb
+2015,gas,cost,,20.58,EUR/MWh,BAFAb
+2010,uranium,cost,,3,EUR/MWh,DIW
+2010,gas,cost,,21.6,EUR/MWh,DIW
+2010,coal,cost,,8.4,EUR/MWh,DIW
+2010,lignite,cost,,2.9,EUR/MWh,DIW
+2010,biomass,cost,,7,EUR/MWh,DIW
+2015,oil,cost,,278.4,EUR/t,DESTATIS
+2015,oil,cost,,25.3,EUR/MWh,Own assumption
+2015,co2,cost,,8,EUR/t,Own assumption
+2012,waste,cost,,0.027,EUR/GJ,Own assumption
+2015,uranium,emission-factor,,0,t (CO2)/MWh,Own assumption
+2015,biomass,cost,,7,EUR/MWh,Own assumption
+2050,co2,cost,,50,EUR/t,Own assumption
+2015,uranium,cost,,3,EUR/MWh,Own assumption
+2015,lignite,cost,,2.9,EUR/MWh,Own assumption
+2015,waste,cost,,0.027,EUR/GJ,Own assumption
+2015,waste,cost,,0.0972,EUR/MWh,Own assumption
+2030,nuclear,cost,st,1.692,EUR/MWh,TYNDP2016-X
+2030,lignite,cost,st,3.96,EUR/MWh,TYNDP2016-X
+2030,coal,cost,st,9.72,EUR/MWh,TYNDP2016-X
+2030,gas,cost,st,31.68,EUR/MWh,TYNDP2016-X
+2030,light_oil,cost,st,78.48,EUR/MWh,TYNDP2016-X
+2030,heavy_oil,cost,st,64.44,EUR/MWh,TYNDP2016-X
+2030,shale_oil,cost,st,8.28,EUR/MWh,TYNDP2016-X
+2030,co2,cost,st,84.3,EUR/t,TYNDP2016-X
+2030,nuclear,cost,gbc,1.692,EUR/MWh,TYNDP2016-X
+2030,lignite,cost,gbc,3.96,EUR/MWh,TYNDP2016-X
+2030,coal,cost,gbc,7.56,EUR/MWh,TYNDP2016-X
+2030,gas,cost,gbc,25.2,EUR/MWh,TYNDP2016-X
+2030,light_oil,cost,gbc,55.8,EUR/MWh,TYNDP2016-X
+2030,heavy_oil,cost,gbc,45.72,EUR/MWh,TYNDP2016-X
+2030,shale_oil,cost,gbc,8.28,EUR/MWh,TYNDP2016-X
+2030,co2,cost,gbc,54,EUR/t,TYNDP2016-X
+2030,biomass,cost,st,5,EUR/MWh,Own assumption
+2030,waste,cost,st,5,EUR/MWh,Own assumption
